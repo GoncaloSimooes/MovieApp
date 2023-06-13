@@ -1,4 +1,4 @@
-from istorage import IStorage
+from MovieApp.istorage import IStorage
 import json
 import requests
 
