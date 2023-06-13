@@ -13,3 +13,5 @@ class IStorage(ABC):
     @abstractmethod
     def delete_movie(self, title_movie):
         pass
+
+
