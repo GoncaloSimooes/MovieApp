@@ -207,3 +207,4 @@ class MovieApp:
 
         print("Website was generated successfully.")
 
+
