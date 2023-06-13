@@ -1,0 +1,15 @@
+from abc import ABC, abstractmethod
+
+
+class IStorage(ABC):
+    @abstractmethod
+    def list_movies(self):
+        pass
+
+    @abstractmethod
+    def add_movie(self, title_movie):
+        pass
+
+    @abstractmethod
+    def delete_movie(self, title_movie):
+        pass
